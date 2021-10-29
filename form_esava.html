@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <title>ESAVA_FORM</title>
+    </head>
+    <body>
+        <div  style="margin: 90px 150px 0px 195px;">
+        <h1>User Registration</h1>
+        <div style="margin: 0px 0px 0px 25px;"><b>Important Information:</b> Passport application can be processed at any <br>PSK/POPSK/PSLK WITHIN INDIA irrespective of your residential address.</div>
+     <div style="color:grey;margin: -35px 0px 0px 700px;">Fields marked with asterisk (*) are mandatory</div>
+    <ul>
+        <li>
+            Click here to check the appointment availability at all PSK/POPSK/PSLK.
+        </li>
+        <li>
+            Click here to know more about Apply Anywhere in India scheme for Passport Services.
+        </li>
+    </ul>
+    <form method="post">
+        <table border="0" style="border-spacing:25px;">
+            <tr>
+                <td>Register to apply at*</td>
+                <td><input type="radio" name="radio_button" id="CPV" value="CPV Delhi">CPV Delhi</br>
+                    <input type="radio" name="radio_button" id="passport_office" value="passportoffice">Passport Office
+                </td>
+                <td><p style="font-size: 11px;">Select the 'CPV Delhi' option to apply for Diplomatic/Official<br> passport at Consular, Passport and Visa (CPV) division, Delhi.</p></td>
+            </tr>
+
+            <tr>
+                <td>Passport Office * <br>
+                   <p style="font-size: 11px;"> (As per Present Residential Address)</p></td>
+                <td>
+                    <select name="city_name" id="city_name">
+                        <option val="">--Select--</option>
+                        <option val="Ahmedabad">Ahmedabad</option>
+                        <option val="Amritsar">Amritsar</option>
+                        <option val="Bareilly">Bareilly</option>
+                        <option val="Bengaluru">Bengaluru</option>
+                        <option val="Bhubaneshwar">Bhubaneshwar</option>
+                        <option val="Chandigarh">Chandigarh</option>
+                        <option val="Chennai">Chennai</option>
+                        <option val="Cochin">Cochin</option>
+                        <option val="Coimbatore">Coimbatore</option>
+                        <option val="Dehradun">Dehradun</option>
+                        <option val="Delhi">Delhi</option>
+                        <option val="Ghaziabad">Ghaziabad</option>
+                        <option val="Goa">Goa</option>
+                        <option val="Guwahati">Guwahati</option>
+                        <option val="Hyderabad">Hyderabad</option>
+                        <option val="Jaipur">Jaipur</option>
+                        <option val="Jalandhar">Jalandhar</option>
+                        <option val="Jammu">Jammu</option>
+                        <option val="Kolkata">Kolkata</option>
+                        <option val="Kozhikode">Kozhikode</option>
+                        <option val="Lucknow">Lucknow</option>
+                        <option val="Madhurai">Madhurai</option>
+                        <option val="Mumbai">Mumbai</option>
+                        <option val="Nagpur">Nagpur</option>
+                        <option val="Patna">Patna</option>
+                        <option val="Pune">Pune</option>
+                        <option val="Raipur">Raipur</option>
+                        <option val="Ranchi">Ranchi</option>
+                        <option val="Shimla">Shimla</option>
+                        <option val="Srinagar">Srinagar</option>
+                        <option val="Surat">Surat</option>
+                        <option val="Tiruchirapalli">Tiruchirapalli</option>
+                        <option val="Trivandrum">Trivandrum</option>
+                        <option val="Vijayawada">Vijayawada</option>
+                        <option val="Visakhapatnam">Visakhapatnam</option>
+
+                    </select>
+                </td>
+                <td><p style="font-size: 11px;">Tibetan Refugees applying for Identity Certificate must register<br> with 'Delhi' Passport Office.</p></td>
+            </tr>
+            <tr>
+                <td>Given Name <p style="font-size: 11px;">(Max 45 Characters)*</p></td>
+            <td><input type="text" name="user_name" id="user_name" value=""></td>
+            <td><p style="font-size: 11px;"><b>First Name + Middle Name</b></br>
+                Initials and honorifics (e.g. Dr.,Col.,etc.) are not allowed.</p></td>
+        </tr>
+        <tr>
+            <td>Surname <p style="font-size: 11px;">(Max 45 Characters)</p></td>
+            <td><input type="text" name="user_name" id="user_name" value=""></td>
+        </tr>
+        <tr>
+            <td>
+                Date of Birth (DD/MM/YYYY)*
+            </td>
+            <td>
+                <input type="date" name="dob" id="dob" value="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            E-mail Id <p style="font-size: 11px;">(Max 35 Characters)*</p>
+        </td>
+        
+        <td>
+            <input type="email" name="mail" id="mail" value="">
+        </td>
+    </tr>
+    <tr>
+        <td>Do you want your Login Id</br>
+            to be same as E-mail Id</td>
+            <td>
+                <input type="radio" name="choice" id="yes" value="Yes">Yes
+                <input type="radio" name="choice" id="no" value="No">No
+                
+            </td>
+    </tr>
+    <tr>
+        <td>Login Id*</td>
+        <td><input type="text" name="login" id="login" value=""></td>
+        <td><p style="color: blue;">Check Availability</p>	</td>
+    </tr>
+    <tr>
+        <td>Password*</td>
+        <td><input type="password" name="psw" id="psw" value=""></td>
+        <td><p style="color: blue;">Password Policy</p></td>
+    </tr>
+    <tr>
+        <td>Confirm Password*</td>
+        <td><input type="password" name="conpsw" id="conpsw" value=""></td>
+    </tr>
+    <tr>
+        <td>
+            Hint Question*
+        </td>
+        <td>
+            <select name="hint_q" id="hint_q">
+                <option val="">--Select--</option>
+                <option val="City_of_Birth">City of Birth</option>
+                <option val="Favorite_Color">Favorite Color</option>
+                <option val="Favorite_Cricketer">Favorite Cricketer</option>
+                <option val="Favorite_Food">Favorite Food</option>
+                <option val="First_School">First School</option>
+                <option val="Make_of_First_car_Owned">Make of First car Owned</option>
+                <option val="Mother's_Maiden_Name">Mother's Maiden Name</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Hint Answer*</td>
+        <td><input type="password" name="hint_a" id="hint_a" value=""></td>
+    </tr>
+    <tr>
+        <td>Enter Characters Displayed *</td>
+        <td><img src="captcha-script-php-min.jpg"></td>
+    </tr>
+    <tr>
+        <td><input type="hidden" name="hide" id="hide" value="find me"></td>
+        <td><input type="text" name="captcha" id="captcha" value=""></td>
+    </tr>
+        </table>
+        <hr>
+       <div style="margin: 0px 0px 0px 90px;"> <input type="submit" name="save" id="save" value="Register"> </div>
+        <div style="margin: -23px 0px 0px 272px;"><input type="reset" name="clear" id="clear" value="Clear"></div>
+
+    </form>
+</div>
+    </body>
+</html>
